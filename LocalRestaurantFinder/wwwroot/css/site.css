@@ -1,0 +1,82 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.search-card {
+    width: auto;
+    margin: 4px auto;
+    padding: 8px;
+}
+
+.card-text {
+    margin-bottom: 0.5rem
+}
+
+.search-input-group {
+    padding-bottom: 4px;
+}
+
+.width-limited {
+    max-width: 512px;
+}
+
+.main-header {
+    height: 16vh;
+}
+
+.main-body {
+    height: 76vh;
+    overflow-y: auto;
+}
+
+.main-body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.main-body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+}
+
+.main-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+}
+
+.main-body::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.4);
+}
+
+.main-body::-webkit-scrollbar-thumb:active {
+    background: rgba(0,0,0,.9);
+}
+
+.main-footer {
+    height: 8vh;
+    color: white;
+}
+
+.site-title {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.bi-star, .bi-star-half, .bi-star-fill {
+    color: goldenrod;
+}

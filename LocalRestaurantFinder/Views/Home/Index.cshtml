@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<header class="border-bottom main-header">
+    <div class="container width-limited">
+        <h1 class="text-center site-title">Local Restaurant Finder</h1>
+        <div class="input-group search-input-group">
+            <input id="search-text-input" class="form-control" placeholder="Enter zip code for nearby restaurants">
+            <button id="search-submit-button" type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+</header>
+<div class="container width-limited main-body" id="search-results-container"></div>
+<footer class="border-top footer main-footer">
+    <div class="container width-limited">
+        &copy; 2022 - LocalRestaurantFinder
+    </div>
+</footer>
